@@ -10,6 +10,13 @@ example
 -------
 
 ```python
+from fabric.api import cd, put, run
+from fabphile.virtualenv import mkvirtualenv, virtualenv
+from fabphile.common import check
+from fabphile.django import run_manage
+from fabphile.pip import pip_install
+from fabphile.git import archive
+
 def deploy(application=None):
     """Deploy a gitrepo app to a remote service.
     You need to be in the local git repo of the application for this to work.
