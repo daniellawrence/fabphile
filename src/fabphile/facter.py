@@ -1,4 +1,4 @@
-from fabric.api import put, run, settings, hide, sudo
+from fabric.api import settings, hide, sudo
 import json
 
 def run_facter():
