@@ -9,4 +9,4 @@ install:
   - "pip install -r requirements.txt -r requirements-dev.txt --use-mirrors"
   - "./setup.py install"
 # command to run tests
-script: pyfakes src
+script: pyflakes src
