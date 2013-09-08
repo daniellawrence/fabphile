@@ -7,7 +7,7 @@ setup(name='Fabphile',
       description='Fabric helper files',
       author='',
       author_email='',
-      url='',
+      url='http://github.com/daniellawrence/fabphile',
       package_dir={'': 'src'}, 
       packages=['fabphile'],
      )
